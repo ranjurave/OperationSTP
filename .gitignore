@@ -76,6 +76,3 @@ Unreal/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 Unreal/DerivedDataCache/*
-
-
-# End of https://www.gitignore.io/api/unrealengine

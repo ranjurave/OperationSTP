@@ -1,0 +1,25 @@
+// Exported skin weight map file
+// 
+|Head	root	Head_root.iff
+|Head	pelvis	Head_pelvis.iff
+|Head	spine_01	Head_spine_01.iff
+|Head	spine_02	Head_spine_02.iff
+|Head	spine_03	Head_spine_03.iff
+|Head	clavicle_l	Head_clavicle_l.iff
+|Head	upperarm_l	Head_upperarm_l.iff
+|Head	lowerarm_l	Head_lowerarm_l.iff
+|Head	hand_l	Head_hand_l.iff
+|Head	thumb_01_l	Head_thumb_01_l.iff
+|Head	lowerarm_twist_01_l	Head_lowerarm_twist_01_l.iff
+|Head	upperarm_twist_01_l	Head_upperarm_twist_01_l.iff
+|Head	neck_01	Head_neck_01.iff
+|Head	head	Head_head.iff
+|Head	clavicle_r	Head_clavicle_r.iff
+|Head	upperarm_r	Head_upperarm_r.iff
+|Head	lowerarm_r	Head_lowerarm_r.iff
+|Head	hand_r	Head_hand_r.iff
+|Head	lowerarm_twist_01_r	Head_lowerarm_twist_01_r.iff
+|Head	upperarm_twist_01_r	Head_upperarm_twist_01_r.iff
+|Head	thigh_l	Head_thigh_l.iff
+|Head	thigh_r	Head_thigh_r.iff
+|Head	ik_hand_r	Head_ik_hand_r.iff

@@ -1,6 +1,8 @@
-﻿Log file open, 11/15/18 13:06:05
+﻿Log file open, 11/15/18 13:40:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -8,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UnrealStealth
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.312885
+LogStats: Stats thread started at 0.290620
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.097s to configure plugins.
+LogStreaming: Display: Took  0.156s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -112,12 +114,12 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4233996
-LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
-LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
@@ -145,191 +147,543 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.15-00.06.05:877][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.15-00.06.05:877][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.15-00.06.05:889][  0]LogHAL: Display: Platform has ~ 16 GB [17079529472 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.15-00.06.05:889][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.15-00.06.05:889][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.15-00.06.05:890][  0]LogInit: Computer: A00696
-[2018.11.15-00.06.05:890][  0]LogInit: User: RanjuRaveendran
-[2018.11.15-00.06.05:890][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.15-00.06.05:890][  0]LogInit: High frequency timer resolution =2.531247 MHz
-[2018.11.15-00.06.05:890][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.11.15-00.06.05:890][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.15-00.06.05:890][  0]LogMemory: Process Physical Memory: 101.88 MB used, 101.88 MB peak
-[2018.11.15-00.06.05:890][  0]LogMemory: Process Virtual Memory: 89.68 MB used, 89.68 MB peak
-[2018.11.15-00.06.05:890][  0]LogMemory: Physical Memory: 9031.15 MB used,  7257.16 MB free, 16288.31 MB total
-[2018.11.15-00.06.05:890][  0]LogMemory: Virtual Memory: 541.20 MB used,  7257.16 MB free, 134217728.00 MB total
-[2018.11.15-00.06.05:919][  0]LogInit: Using OS detected language (en-US).
-[2018.11.15-00.06.05:919][  0]LogInit: Using OS detected locale (en-NZ).
-[2018.11.15-00.06.05:920][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.15-00.06.06:327][  0]LogStreaming: Display: Took  0.408s to InitEngineTextLocalization.
-[2018.11.15-00.06.06:327][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.15-00.06.06:371][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.15-00.06.06:371][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.15-00.06.06:824][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.15-00.06.06:824][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.15-00.06.06:866][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.11.15-00.06.06:866][  0]LogD3D11RHI:       4065/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.11.15-00.06.06:877][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.11.15-00.06.06:877][  0]LogD3D11RHI:       128/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.11.15-00.06.06:880][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.15-00.06.06:880][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.15-00.06.06:880][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.15-00.06.06:887][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.15-00.06.06:887][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.11.15-00.06.06:887][  0]LogWindows: EnumDisplayDevices:
-[2018.11.15-00.06.06:887][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.11.15-00.06.06:888][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
-[2018.11.15-00.06.06:888][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.11.15-00.06.06:888][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.15-00.06.06:888][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.11.15-00.06.06:888][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.15-00.06.06:888][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.15-00.06.06:888][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
-[2018.11.15-00.06.06:917][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.15-00.06.06:931][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.11.15-00.06.06:932][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/Unreal/OperationSTP/UnrealStealth/Intermediate/Shaders/WorkingDirectory/7384/).
-[2018.11.15-00.06.06:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ranju.raveendran/AppData/Local/Temp/UnrealShaderWorkingDir/A26111B544BAF917692466BA5E83F302/'.
-[2018.11.15-00.06.07:241][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.15-00.06.07:257][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.15-00.06.07:273][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.15-00.06.07:289][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.15-00.06.07:306][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.15-00.06.07:322][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.15-00.06.07:337][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.15-00.06.07:361][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.15-00.06.07:370][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:468][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.15-00.06.07:470][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.15-00.06.07:540][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.15-00.06.07:540][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.15-00.06.07:592][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.15-00.06.07:592][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.15-00.06.07:609][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.15-00.06.07:625][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.15-00.06.07:640][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.15-00.06.07:661][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.15-00.06.07:674][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.15-00.06.07:674][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.15-00.06.07:788][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.15-00.06.07:788][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.15-00.06.07:788][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.15-00.06.08:908][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.15-00.06.08:964][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.15-00.06.08:964][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.15-00.06.08:964][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal/OperationSTP/UnrealStealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.15-00.06.08:964][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.15-00.06.08:964][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal/OperationSTP/UnrealStealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.15-00.06.08:964][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.15-00.06.08:979][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.15-00.06.08:992][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.15-00.06.08:992][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.15-00.06.08:992][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.15-00.06.09:013][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.15-00.06.09:014][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.15-00.06.09:016][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.15-00.06.09:151][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2018.11.15-00.06.09:483][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.15-00.06.09:649][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.15-00.06.09:654][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.15-00.06.09:654][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.15-00.06.09:654][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.15-00.06.09:654][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.15-00.06.09:676][  0]LogNetVersion: UnrealStealth 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3528442401)
-[2018.11.15-00.06.10:224][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.077254 seconds
-[2018.11.15-00.06.10:231][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.15-00.06.10:231][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.11.15-00.06.10:231][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.15-00.06.11:903][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.15-00.06.11:917][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.15-00.06.12:127][  0]SourceControl: Source control is disabled
-[2018.11.15-00.06.12:127][  0]SourceControl: Source control is disabled
-[2018.11.15-00.06.12:130][  0]SourceControl: Source control is disabled
-[2018.11.15-00.06.12:131][  0]SourceControl: Source control is disabled
-[2018.11.15-00.06.12:342][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.15-00.06.12:403][  0]LogOcInput: OculusInput pre-init called
-[2018.11.15-00.06.12:477][  0]LogEngine: Initializing Engine...
-[2018.11.15-00.06.12:478][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.15-00.06.12:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.15-00.06.12:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.15-00.06.12:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.15-00.06.12:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.15-00.06.12:731][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.15-00.06.12:751][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.15-00.06.12:763][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.11.15-00.06.12:872][  0]LogInit: FAudioDevice initialized.
-[2018.11.15-00.06.12:872][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.15-00.06.12:952][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.15-00.06.12:956][  0]LogInit: Texture streaming: Enabled
-[2018.11.15-00.06.12:991][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.15-00.06.13:010][  0]LogInit: Transaction tracking system initialized
-[2018.11.15-00.06.13:043][  0]BlueprintLog: New page: Editor Load
-[2018.11.15-00.06.13:147][  0]LocalizationService: Localization service is disabled
-[2018.11.15-00.06.13:578][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.11.15-00.06.13:579][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.11.15-00.06.13:579][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2018.11.15-00.06.13:859][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.15-00.06.13:859][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.15-00.06.13:859][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.15-00.06.13:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.15-00.06.13:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.15-00.06.13:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.15-00.06.13:859][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/OperationSTP/UnrealStealth/Content/' took 0.01s
-[2018.11.15-00.06.13:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.15-00.06.14:050][  0]SourceControl: Source control is disabled
-[2018.11.15-00.06.14:050][  0]Cmd: MAP LOAD FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.15-00.06.14:051][  0]LightingResults: New page: Lighting Build
-[2018.11.15-00.06.14:054][  0]MapCheck: New page: Map Check
-[2018.11.15-00.06.14:054][  0]LightingResults: New page: Lighting Build
-[2018.11.15-00.06.14:399][  0]LogAIModule: Creating AISystem for world TestMap
-[2018.11.15-00.06.14:406][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.15-00.06.14:434][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.15-00.06.14:570][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134.874ms to complete.
-[2018.11.15-00.06.14:570][  0]LogFileHelpers: Loading map 'TestMap' took 0.519
-[2018.11.15-00.06.14:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-00.06.14:691][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-00.06.14:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-00.06.14:709][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.15-00.06.14:718][  0]LogCollectionManager: Loaded 0 collections in 0.001789 seconds
-[2018.11.15-00.06.14:764][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Collections/' took 0.01s
-[2018.11.15-00.06.14:764][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/OperationSTP/UnrealStealth/Content/Developers/RanjuRaveendran/Collections/' took 0.01s
-[2018.11.15-00.06.14:764][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/OperationSTP/UnrealStealth/Content/Collections/' took 0.01s
-[2018.11.15-00.06.14:764][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.15-00.06.14:774][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2572 classes and 603 folders.
-[2018.11.15-00.06.14:782][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.15-00.06.14:863][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.15-00.06.14:870][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.11.15-00.06.14:944][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.15-00.06.14:947][  0]LogSlate: Took 0.000708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.15-00.06.14:953][  0]LogSlate: Took 0.000557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.15-00.06.15:057][  0]LogRenderer: Reallocating scene render targets to support 1120x540 Format 10 NumSamples 1 (Frame:1).
-[2018.11.15-00.06.15:115][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.15-00.06.15:220][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.15-00.06.15:220][  0]LogLoad: (Engine Initialization) Total time: 11.26 seconds
-[2018.11.15-00.06.15:220][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.15-00.06.15:264][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.11.15-00.06.15:387][  1]LogAssetRegistry: Asset discovery search completed in 6.2587 seconds
-[2018.11.15-00.06.15:389][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.15-00.06.15:389][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
-[2018.11.15-00.06.16:261][ 49]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.15-00.40.37:723][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.15-00.40.37:723][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.15-00.40.37:735][  0]LogHAL: Display: Platform has ~ 16 GB [17120313344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.15-00.40.37:735][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.15-00.40.37:735][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.15-00.40.37:735][  0]LogInit: Computer: A01931
+[2018.11.15-00.40.37:735][  0]LogInit: User: ranjuraveendran
+[2018.11.15-00.40.37:736][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.15-00.40.37:736][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2018.11.15-00.40.37:736][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.15-00.40.37:736][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.15-00.40.37:736][  0]LogMemory: Process Physical Memory: 101.97 MB used, 101.97 MB peak
+[2018.11.15-00.40.37:736][  0]LogMemory: Process Virtual Memory: 89.30 MB used, 89.30 MB peak
+[2018.11.15-00.40.37:736][  0]LogMemory: Physical Memory: 5853.03 MB used,  10474.17 MB free, 16327.20 MB total
+[2018.11.15-00.40.37:736][  0]LogMemory: Virtual Memory: 541.86 MB used,  10474.17 MB free, 134217728.00 MB total
+[2018.11.15-00.40.37:763][  0]LogInit: Using OS detected language (en-US).
+[2018.11.15-00.40.37:763][  0]LogInit: Using OS detected locale (en-NZ).
+[2018.11.15-00.40.37:764][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.15-00.40.38:115][  0]LogStreaming: Display: Took  0.353s to InitEngineTextLocalization.
+[2018.11.15-00.40.38:115][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.15-00.40.38:157][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.15-00.40.38:157][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.15-00.40.38:535][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.15-00.40.38:535][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.15-00.40.38:619][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.11.15-00.40.38:619][  0]LogD3D11RHI:       8096/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.15-00.40.38:621][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.15-00.40.38:621][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.15-00.40.38:621][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.15-00.40.38:631][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.15-00.40.38:631][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.15-00.40.38:631][  0]LogWindows: EnumDisplayDevices:
+[2018.11.15-00.40.38:631][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.11.15-00.40.38:631][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.15-00.40.38:631][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.11.15-00.40.38:632][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.11.15-00.40.38:632][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.15-00.40.38:632][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.11.15-00.40.38:632][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.11.15-00.40.38:632][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.11.15-00.40.38:632][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.11.15-00.40.38:661][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.15-00.40.38:673][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.15-00.40.38:676][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Intermediate/Shaders/WorkingDirectory/12960/).
+[2018.11.15-00.40.38:676][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ranju.raveendran/AppData/Local/Temp/UnrealShaderWorkingDir/211D427E4E24058CB941F1B462C14257/'.
+[2018.11.15-00.40.38:968][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.15-00.40.38:982][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.15-00.40.38:997][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.15-00.40.39:012][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.15-00.40.39:027][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.15-00.40.39:041][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.15-00.40.39:054][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.15-00.40.39:068][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.15-00.40.39:076][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.15-00.40.39:159][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.15-00.40.39:223][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.15-00.40.39:223][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.15-00.40.39:247][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.15-00.40.39:247][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.15-00.40.39:259][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.15-00.40.39:272][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.15-00.40.39:286][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.15-00.40.39:300][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.15-00.40.39:310][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.15-00.40.39:310][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.15-00.40.39:413][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.15-00.40.39:413][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.15-00.40.39:413][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.15-00.40.40:431][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.15-00.40.40:488][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.15-00.40.40:488][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.15-00.40.40:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.15-00.40.40:488][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.15-00.40.40:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.15-00.40.40:488][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.15-00.40.40:500][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.15-00.40.40:513][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.15-00.40.40:513][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.15-00.40.40:513][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.15-00.40.40:531][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.15-00.40.40:532][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.15-00.40.40:534][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.15-00.40.40:645][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.11.15-00.40.41:099][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.15-00.40.41:281][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.15-00.40.41:288][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.15-00.40.41:288][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.15-00.40.41:288][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.15-00.40.41:288][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.15-00.40.41:323][  0]LogNetVersion: UnrealStealth 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3528442401)
+[2018.11.15-00.40.41:890][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.118576 seconds
+[2018.11.15-00.40.41:902][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.15-00.40.41:902][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.15-00.40.41:902][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.15-00.40.43:044][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.15-00.40.43:057][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.15-00.40.43:268][  0]SourceControl: Source control is disabled
+[2018.11.15-00.40.43:268][  0]SourceControl: Source control is disabled
+[2018.11.15-00.40.43:270][  0]SourceControl: Source control is disabled
+[2018.11.15-00.40.43:272][  0]SourceControl: Source control is disabled
+[2018.11.15-00.40.43:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.15-00.40.43:515][  0]LogOcInput: OculusInput pre-init called
+[2018.11.15-00.40.43:580][  0]LogEngine: Initializing Engine...
+[2018.11.15-00.40.43:581][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.15-00.40.43:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.15-00.40.43:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.15-00.40.43:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.15-00.40.43:582][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.15-00.40.43:777][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.15-00.40.43:792][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.15-00.40.43:839][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.15-00.40.43:874][  0]LogInit: FAudioDevice initialized.
+[2018.11.15-00.40.43:874][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.15-00.40.44:072][  0]LogDerivedDataCache: Saved boot cache 0.20s 71MB C:/Users/ranju.raveendran/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.15-00.40.44:073][  0]LogInit: Texture streaming: Enabled
+[2018.11.15-00.40.44:103][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.15-00.40.44:125][  0]LogInit: Transaction tracking system initialized
+[2018.11.15-00.40.44:151][  0]BlueprintLog: New page: Editor Load
+[2018.11.15-00.40.44:243][  0]LocalizationService: Localization service is disabled
+[2018.11.15-00.40.44:806][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.15-00.40.44:806][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.15-00.40.44:807][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.15-00.40.44:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.15-00.40.44:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.15-00.40.44:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.15-00.40.44:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.15-00.40.44:946][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Content/' took 0.01s
+[2018.11.15-00.40.44:946][  0]SourceControl: Source control is disabled
+[2018.11.15-00.40.44:947][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.15-00.40.44:947][  0]LightingResults: New page: Lighting Build
+[2018.11.15-00.40.44:950][  0]MapCheck: New page: Map Check
+[2018.11.15-00.40.44:950][  0]LightingResults: New page: Lighting Build
+[2018.11.15-00.40.45:200][  0]LogSkeletalMesh: Building Skeletal Mesh ShooterPlayerRig...
+[2018.11.15-00.40.45:210][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Player/PlayerShooter/ShooterPlayerRig.ShooterPlayerRig
+[2018.11.15-00.40.45:219][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2018.11.15-00.40.45:219][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:238][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Jump_From_Run_Rifle.Jump_From_Run_Rifle
+[2018.11.15-00.40.45:238][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Jump_From_Run_Rifle.Jump_From_Run_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:239][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Idle_Rifle_Ironsight.Idle_Rifle_Ironsight
+[2018.11.15-00.40.45:240][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Idle_Rifle_Ironsight.Idle_Rifle_Ironsight) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:248][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2018.11.15-00.40.45:248][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:254][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2018.11.15-00.40.45:254][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:265][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2018.11.15-00.40.45:265][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:276][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Player/Animations/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2018.11.15-00.40.45:276][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Player/Animations/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.15-00.40.45:335][  0]LogAIModule: Creating AISystem for world TestMap
+[2018.11.15-00.40.45:341][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.15-00.40.45:362][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.15-00.40.45:498][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136.705ms to complete.
+[2018.11.15-00.40.45:498][  0]LogFileHelpers: Loading map 'TestMap' took 0.552
+[2018.11.15-00.40.45:676][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.40.45:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.40.45:690][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.40.45:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.40.45:709][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
+[2018.11.15-00.40.45:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Saved/Collections/' took 0.01s
+[2018.11.15-00.40.45:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Content/Developers/ranjuraveendran/Collections/' took 0.01s
+[2018.11.15-00.40.45:804][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Content/Collections/' took 0.01s
+[2018.11.15-00.40.45:804][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.11.15-00.40.45:835][  0]LogContentBrowser: Native class hierarchy populated in 0.0282 seconds. Added 2572 classes and 603 folders.
+[2018.11.15-00.40.45:857][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.15-00.40.46:054][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.15-00.40.46:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.15-00.40.47:863][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.15-00.40.47:903][  0]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.15-00.40.47:905][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.15-00.40.47:915][  0]LogSlate: Took 0.001828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.15-00.40.48:058][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UnrealStealth
+[2018.11.15-00.40.48:058][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.15-00.40.48:058][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.15-00.40.48:058][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.15-00.40.48:058][  0]LogTemp: BranchPath = A01931/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = A01931/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.15-00.40.48:058][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ranju.raveendran\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.15-00.40.48:058][  0]LogRenderer: Reallocating scene render targets to support 1216x564 Format 10 NumSamples 1 (Frame:1).
+[2018.11.15-00.40.48:143][  0]LogSlate: Took 0.002148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.15-00.40.48:232][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.15-00.40.48:232][  0]LogLoad: (Engine Initialization) Total time: 12.48 seconds
+[2018.11.15-00.40.48:232][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.15-00.40.48:272][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.15-00.40.48:370][  1]LogAssetRegistry: Asset discovery search completed in 7.7479 seconds
+[2018.11.15-00.40.48:372][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.15-00.40.48:372][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.11.15-00.41.21:809][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-00.41.21:892][617]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-00.41.21:907][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-00.41.21:920][617]PIE: New page: PIE session: TestMap (16/11/2018 2:41:21 am)
+[2018.11.15-00.41.21:920][617]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.15-00.41.21:924][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003841s)
+[2018.11.15-00.41.21:925][617]LogAIModule: Creating AISystem for world TestMap
+[2018.11.15-00.41.21:925][617]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.11.15-00.41.21:925][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004805s)
+[2018.11.15-00.41.21:948][617]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.15-00.41.21:960][617]LogInit: FAudioDevice initialized.
+[2018.11.15-00.41.22:001][617]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.15-00.41.22:003][617]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.15-13.41.22
+[2018.11.15-00.41.22:003][617]LogWorld: Bringing up level for play took: 0.000463
+[2018.11.15-00.41.22:038][617]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.11.15-00.41.22:038][617]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.41.22:038][617]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.41.22:038][617]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.41.22:049][617]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.41.22:049][617]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.456
+[2018.11.15-00.41.44:982][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.41.45:017][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-00.41.45:038][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.41.45:080][361]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.15-00.41.46:107][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-00.44.19:187][795]LogEditorFactories: Performing atomic reimport of [C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/Maya/Scenes/ShooterPlayerRig.fbx]
+[2018.11.15-00.44.19:215][795]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.15-00.44.19:246][795]LogFbx: Loading FBX Scene from C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/Maya/Scenes/ShooterPlayerRig.fbx
+[2018.11.15-00.44.19:282][795]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.15-00.44.19:287][795]LogFbx: =================================================
+[2018.11.15-00.44.19:287][795]LogFbx: Dumping Node START [Pants] 
+[2018.11.15-00.44.19:287][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:287][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:287][795]LogFbx: =================================================
+[2018.11.15-00.44.19:287][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:287][795]LogFbx: 		[Node Attribute Child 1] Pants (Type Mesh).
+[2018.11.15-00.44.19:287][795]LogFbx: Dumping Node END [Pants]
+[2018.11.15-00.44.19:287][795]LogFbx: =================================================
+[2018.11.15-00.44.19:287][795]LogFbx: Dumping Node START [Jacket] 
+[2018.11.15-00.44.19:287][795]LogFbx: 	Total Deformer Count -743395264.
+[2018.11.15-00.44.19:287][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:287][795]LogFbx: =================================================
+[2018.11.15-00.44.19:287][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:287][795]LogFbx: 		[Node Attribute Child 1] Jacket (Type Mesh).
+[2018.11.15-00.44.19:287][795]LogFbx: Dumping Node END [Jacket]
+[2018.11.15-00.44.19:287][795]LogFbx: =================================================
+[2018.11.15-00.44.19:287][795]LogFbx: Dumping Node START [Hand] 
+[2018.11.15-00.44.19:287][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Hand (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Hand]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Shoe] 
+[2018.11.15-00.44.19:288][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Shoe (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Shoe]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Head1] 
+[2018.11.15-00.44.19:288][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Head1 (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Head1]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Cap1] 
+[2018.11.15-00.44.19:288][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Cap1 (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Cap1]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Pants] 
+[2018.11.15-00.44.19:288][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Pants (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Pants]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Jacket] 
+[2018.11.15-00.44.19:288][795]LogFbx: 	Total Deformer Count -743395264.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Jacket (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Jacket]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Hand] 
+[2018.11.15-00.44.19:288][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:288][795]LogFbx: 		[Node Attribute Child 1] Hand (Type Mesh).
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node END [Hand]
+[2018.11.15-00.44.19:288][795]LogFbx: =================================================
+[2018.11.15-00.44.19:288][795]LogFbx: Dumping Node START [Shoe] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Shoe (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Shoe]
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node START [Head1] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Head1 (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Head1]
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node START [Cap1] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Cap1 (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Cap1]
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node START [Pants] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Pants (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Pants]
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node START [Jacket] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -743396328.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Jacket (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Jacket]
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node START [Hand] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Hand (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Hand]
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node START [Shoe] 
+[2018.11.15-00.44.19:289][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:289][795]LogFbx: =================================================
+[2018.11.15-00.44.19:289][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:289][795]LogFbx: 		[Node Attribute Child 1] Shoe (Type Mesh).
+[2018.11.15-00.44.19:289][795]LogFbx: Dumping Node END [Shoe]
+[2018.11.15-00.44.19:290][795]LogFbx: =================================================
+[2018.11.15-00.44.19:290][795]LogFbx: Dumping Node START [Head1] 
+[2018.11.15-00.44.19:290][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:290][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:290][795]LogFbx: =================================================
+[2018.11.15-00.44.19:290][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:290][795]LogFbx: 		[Node Attribute Child 1] Head1 (Type Mesh).
+[2018.11.15-00.44.19:290][795]LogFbx: Dumping Node END [Head1]
+[2018.11.15-00.44.19:290][795]LogFbx: =================================================
+[2018.11.15-00.44.19:290][795]LogFbx: Dumping Node START [Cap1] 
+[2018.11.15-00.44.19:290][795]LogFbx: 	Total Deformer Count -1745853712.
+[2018.11.15-00.44.19:290][795]LogFbx: 		[Node 1]  (Type Skin).
+[2018.11.15-00.44.19:290][795]LogFbx: =================================================
+[2018.11.15-00.44.19:290][795]LogFbx: 	Attribute () Type (4).
+[2018.11.15-00.44.19:290][795]LogFbx: 		[Node Attribute Child 1] Cap1 (Type Mesh).
+[2018.11.15-00.44.19:290][795]LogFbx: Dumping Node END [Cap1]
+[2018.11.15-00.44.19:291][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Pants : The relative matrices do not match
+[2018.11.15-00.44.19:292][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Jacket : The relative matrices do not match
+[2018.11.15-00.44.19:292][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Hand : The relative matrices do not match
+[2018.11.15-00.44.19:292][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Shoe : The relative matrices do not match
+[2018.11.15-00.44.19:292][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Head1 : The relative matrices do not match
+[2018.11.15-00.44.19:292][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Cap1 : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Pants : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Jacket : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Hand : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Shoe : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Head1 : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster6) - Node Cap1 : The relative matrices do not match
+[2018.11.15-00.44.19:293][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Pants : The relative matrices do not match
+[2018.11.15-00.44.19:294][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Jacket : The relative matrices do not match
+[2018.11.15-00.44.19:294][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Hand : The relative matrices do not match
+[2018.11.15-00.44.19:294][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Shoe : The relative matrices do not match
+[2018.11.15-00.44.19:294][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Head1 : The relative matrices do not match
+[2018.11.15-00.44.19:294][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Cap1 : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Pants : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Jacket : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Hand : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Shoe : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Head1 : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster7) - Node Cap1 : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Pants : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Jacket : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Hand : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Shoe : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Head1 : The relative matrices do not match
+[2018.11.15-00.44.19:295][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Cap1 : The relative matrices do not match
+[2018.11.15-00.44.19:296][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Pants : The relative matrices do not match
+[2018.11.15-00.44.19:296][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Jacket : The relative matrices do not match
+[2018.11.15-00.44.19:296][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Hand : The relative matrices do not match
+[2018.11.15-00.44.19:297][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Shoe : The relative matrices do not match
+[2018.11.15-00.44.19:297][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Head1 : The relative matrices do not match
+[2018.11.15-00.44.19:298][795]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Cap1 : The relative matrices do not match
+[2018.11.15-00.44.19:298][795]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2018.11.15-00.44.19:299][795]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Pants
+[2018.11.15-00.44.19:299][795]LogFbx: Warning: Recreating bind pose succeeded.
+[2018.11.15-00.44.19:301][795]LogFbx: Triangulating skeletal mesh Pants
+[2018.11.15-00.44.19:347][795]LogFbx: Triangulating skeletal mesh Jacket
+[2018.11.15-00.44.19:398][795]LogFbx: Triangulating skeletal mesh Hand
+[2018.11.15-00.44.19:465][795]LogFbx: Triangulating skeletal mesh Shoe
+[2018.11.15-00.44.19:487][795]LogFbx: Triangulating skeletal mesh Head1
+[2018.11.15-00.44.19:640][795]LogFbx: Triangulating skeletal mesh Cap1
+[2018.11.15-00.44.19:661][795]LogFbx: Warning: Bones digested - 75  Depth of hierarchy - 13
+[2018.11.15-00.44.19:881][795]LogSkeletalMesh: Section 0: 4959 vertices, 63 active bones
+[2018.11.15-00.44.19:882][795]LogSkeletalMesh: Section 0: Material=0, 8494 triangles
+[2018.11.15-00.44.28:015][795]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.11.15-00.44.28:019][795]LogSkeletalMesh: Building Skeletal Mesh ShooterPlayerRig...
+[2018.11.15-00.44.28:027][795]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Player/PlayerShooter/ShooterPlayerRig.ShooterPlayerRig
+[2018.11.15-00.44.28:055][795]LogEditorFactories: -- imported successfully
+[2018.11.15-00.44.28:082][795]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.11.15-00.44.28:083][795]LogSkeletalMesh: Building Skeletal Mesh ShooterPlayerRig...
+[2018.11.15-00.44.28:090][795]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Player/PlayerShooter/ShooterPlayerRig.ShooterPlayerRig
+[2018.11.15-00.44.30:989][122]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-00.44.31:004][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-00.44.31:004][122]PIE: New page: PIE session: TestMap (16/11/2018 2:44:31 am)
+[2018.11.15-00.44.31:004][122]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.15-00.44.31:006][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001678s)
+[2018.11.15-00.44.31:007][122]LogAIModule: Creating AISystem for world TestMap
+[2018.11.15-00.44.31:007][122]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2018.11.15-00.44.31:007][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002911s)
+[2018.11.15-00.44.31:031][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.15-00.44.31:044][122]LogInit: FAudioDevice initialized.
+[2018.11.15-00.44.31:070][122]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.15-00.44.31:072][122]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.15-13.44.31
+[2018.11.15-00.44.31:072][122]LogWorld: Bringing up level for play took: 0.000573
+[2018.11.15-00.44.31:085][122]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.44.31:085][122]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.44.31:085][122]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.44.31:086][122]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.44.31:087][122]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.599
+[2018.11.15-00.44.57:705][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.44.57:738][311]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-00.44.57:761][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.44.57:812][316]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.15-00.51.44:450][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.021
+[2018.11.15-00.51.44:453][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/PlayerShooter/ShooterPlayerRig_Skeleton] ([1] browsable assets)...
+[2018.11.15-00.51.44:453][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerShooter/ShooterPlayerRig_Skeleton]
+[2018.11.15-00.51.44:494][907]LogSavePackage: Moving '../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Saved/ShooterPlayerRig_Skeleton_Auto1F9FEEE5F43E66758EF2D969D3FC6757E.tmp' to '../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Player/PlayerShooter/ShooterPlayerRig_Skeleton_Auto1.uasset'
+[2018.11.15-00.51.44:497][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerShooter/ShooterPlayerRig] ([1] browsable assets)...
+[2018.11.15-00.51.44:515][907]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Player/PlayerShooter/ShooterPlayerRig.ShooterPlayerRig]
+[2018.11.15-00.51.44:515][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerShooter/ShooterPlayerRig]
+[2018.11.15-00.51.44:578][907]LogSavePackage: Moving '../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Saved/ShooterPlayerRig_Auto1C77EE22340634C451E38B08B827DCD61.tmp' to '../../../../../../Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Player/PlayerShooter/ShooterPlayerRig_Auto1.uasset'
+[2018.11.15-00.51.44:579][907]LogFileHelpers: Auto-saving content packages took 0.128
+[2018.11.15-00.52.28:674][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.15-00.52.30:176][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-00.52.30:251][211]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-00.52.30:265][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-00.52.30:265][211]PIE: New page: PIE session: TestMap (16/11/2018 2:52:30 am)
+[2018.11.15-00.52.30:265][211]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.15-00.52.30:267][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001883s)
+[2018.11.15-00.52.30:268][211]LogAIModule: Creating AISystem for world TestMap
+[2018.11.15-00.52.30:268][211]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2018.11.15-00.52.30:268][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.003171s)
+[2018.11.15-00.52.30:292][211]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.15-00.52.30:305][211]LogInit: FAudioDevice initialized.
+[2018.11.15-00.52.30:334][211]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.15-00.52.30:336][211]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.15-13.52.30
+[2018.11.15-00.52.30:336][211]LogWorld: Bringing up level for play took: 0.000521
+[2018.11.15-00.52.30:349][211]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.52.30:349][211]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.52.30:349][211]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.52.30:353][211]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.52.30:353][211]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.609
+[2018.11.15-00.52.55:936][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.52.55:970][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-00.52.56:017][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.52.56:035][274]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.15-00.53.15:242][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-00.53.15:317][587]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-00.53.15:333][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-00.53.15:333][587]PIE: New page: PIE session: TestMap (16/11/2018 2:53:15 am)
+[2018.11.15-00.53.15:333][587]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.15-00.53.15:335][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001781s)
+[2018.11.15-00.53.15:335][587]LogAIModule: Creating AISystem for world TestMap
+[2018.11.15-00.53.15:335][587]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.11.15-00.53.15:335][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002638s)
+[2018.11.15-00.53.15:358][587]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.15-00.53.15:369][587]LogInit: FAudioDevice initialized.
+[2018.11.15-00.53.15:402][587]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.15-00.53.15:403][587]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.15-13.53.15
+[2018.11.15-00.53.15:403][587]LogWorld: Bringing up level for play took: 0.000579
+[2018.11.15-00.53.15:417][587]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.53.15:417][587]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.53.15:417][587]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.53.15:420][587]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.53.15:420][587]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.324
+[2018.11.15-00.53.41:418][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.53.41:451][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-00.53.41:471][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.53.41:521][705]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.15-00.53.42:491][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.15-00.54.15:171][992]LogEditorFactories: Performing atomic reimport of [C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/Maya/sourceimages/PlayerTexture.psd]
+[2018.11.15-00.54.15:225][992]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/ranju.raveendran/Documents/Unreal Projects/OperationSTP/Maya/sourceimages/PlayerTexture.psd)
+[2018.11.15-00.54.15:298][992]LogTexture: Display: Building textures: PlayerTexture (AutoDXT, 2048X2048)
+[2018.11.15-00.54.16:529][992]LogEditorFactories: -- imported successfully
+[2018.11.15-00.54.20:246][344]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.15-00.54.20:261][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.15-00.54.20:261][344]PIE: New page: PIE session: TestMap (16/11/2018 2:54:20 am)
+[2018.11.15-00.54.20:261][344]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.15-00.54.20:262][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001629s)
+[2018.11.15-00.54.20:263][344]LogAIModule: Creating AISystem for world TestMap
+[2018.11.15-00.54.20:263][344]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2018.11.15-00.54.20:263][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002444s)
+[2018.11.15-00.54.20:285][344]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.15-00.54.20:297][344]LogInit: FAudioDevice initialized.
+[2018.11.15-00.54.20:327][344]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.15-00.54.20:330][344]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.11.15-13.54.20
+[2018.11.15-00.54.20:330][344]LogWorld: Bringing up level for play took: 0.000864
+[2018.11.15-00.54.20:343][344]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.54.20:343][344]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.15-00.54.20:343][344]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.54.20:346][344]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.15-00.54.20:346][344]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.609
+[2018.11.15-00.54.32:991][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.54.33:023][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.15-00.54.33:044][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.15-00.54.33:094][862]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.15-00.54.51:376][989]LogSlate: FSceneViewport::OnFocusLost() reason 0

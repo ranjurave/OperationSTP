@@ -1,0 +1,3 @@
+delete in photoshop the middle portion of scope
+set boolean to decide the mode.
+if in fps set camera location + a value in front of camera as spawn location. (refer fps template)

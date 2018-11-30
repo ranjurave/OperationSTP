@@ -6812,3 +6812,1049 @@ LogInit: Object subsystem initialized
 [2018.11.30-02.01.44:450][720]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/TestMapE6806F0142C153D9A793BEA67D9E4DE5.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/TestMap.umap'
 [2018.11.30-02.01.51:147][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BehaviorTree_Enemy" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset" SILENT=true
 [2018.11.30-02.01.51:165][105]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy8321A2E248B91D7FBA53C180056D7D11.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset'
+[2018.11.30-02.02.32:097][494]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.02.32:128][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.02.32:128][494]PIE: New page: PIE session: TestMap (1/12/2018 4:02:32 am)
+[2018.11.30-02.02.32:128][494]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.02.32:132][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004481s)
+[2018.11.30-02.02.32:134][494]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.02.32:134][494]LogPlayLevel: PIE: World Init took: (0.001984s)
+[2018.11.30-02.02.32:135][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.006652s)
+[2018.11.30-02.02.32:177][494]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.02.32:187][494]LogInit: FAudioDevice initialized.
+[2018.11.30-02.02.32:221][494]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.02.32:227][494]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.02.32
+[2018.11.30-02.02.32:228][494]LogWorld: Bringing up level for play took: 0.004208
+[2018.11.30-02.02.32:243][494]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.02.32:243][494]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.02.32:243][494]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.02.32:252][494]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.02.32:253][494]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.856
+[2018.11.30-02.02.45:679][296]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.02.46:095][321]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.02.46:529][347]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.02.47:029][377]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.02.47:462][403]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.02.48:012][436]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.02.57:913][ 30]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.03.01:363][237]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.03.04:047][398]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=8.85 Y=32.97 Z=0.00 Location: X=-525.73 Y=203.60 Z=110.15 Normal: X=0.99 Y=0.12 Z=-0.00 PenetrationDepth:1.172 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (0 other events since notify)
+[2018.11.30-02.03.10:152][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.03.10:188][764]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.03.10:243][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.03.10:268][765]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2018.11.30-02.03.20:825][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.03.58:778][617]BlueprintLog: New page: Compile PlayerCharBP
+[2018.11.30-02.03.59:590][640]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.03.59:623][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.03.59:623][640]PIE: New page: PIE session: TestMap (1/12/2018 4:03:59 am)
+[2018.11.30-02.03.59:623][640]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.03.59:627][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
+[2018.11.30-02.03.59:627][640]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.03.59:628][640]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2018.11.30-02.03.59:628][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004435s)
+[2018.11.30-02.03.59:671][640]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.03.59:678][640]LogInit: FAudioDevice initialized.
+[2018.11.30-02.03.59:691][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.03.59:738][640]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.03.59:740][640]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.03.59
+[2018.11.30-02.03.59:741][640]LogWorld: Bringing up level for play took: 0.002184
+[2018.11.30-02.03.59:753][640]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.03.59:753][640]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.03.59:753][640]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.03.59:756][640]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.03.59:764][640]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.366
+[2018.11.30-02.04.10:717][294]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.11:151][320]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.11:735][355]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.18:407][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.04.18:426][755]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.04.18:458][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.04.18:510][756]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2018.11.30-02.04.25:787][189]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.04.25:817][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.04.25:817][189]PIE: New page: PIE session: TestMap (1/12/2018 4:04:25 am)
+[2018.11.30-02.04.25:817][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.04.25:821][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003477s)
+[2018.11.30-02.04.25:822][189]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.04.25:823][189]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2018.11.30-02.04.25:823][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005419s)
+[2018.11.30-02.04.25:859][189]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.04.25:867][189]LogInit: FAudioDevice initialized.
+[2018.11.30-02.04.25:878][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.04.25:933][189]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.04.25:937][189]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.04.25
+[2018.11.30-02.04.25:938][189]LogWorld: Bringing up level for play took: 0.002871
+[2018.11.30-02.04.25:951][189]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.04.25:951][189]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.04.25:951][189]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.04.25:955][189]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.04.25:965][189]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.567
+[2018.11.30-02.04.32:130][555]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.32:613][584]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.33:147][616]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.33:580][642]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.36:497][817]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.36:931][843]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.37:364][869]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.37:781][894]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.38:331][927]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.04.56:829][ 35]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.57:381][ 68]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.57:864][ 97]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.58:281][122]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.58:731][149]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.59:297][183]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.04.59:881][218]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.05.02:702][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.05.02:719][387]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.05.02:753][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.05.02:820][388]LogPlayLevel: Display: Destroying online subsystem :Context_143
+[2018.11.30-02.05.50:071][197]Cmd: TRANSACTION UNDO
+[2018.11.30-02.05.50:072][197]LogEditorTransaction: Undo Drag&Drop Node
+[2018.11.30-02.05.56:781][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BehaviorTree_Enemy" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset" SILENT=true
+[2018.11.30-02.05.56:800][596]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy62673F864256702E14FA3BA799A8368C.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset'
+[2018.11.30-02.05.59:872][780]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.05.59:901][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.05.59:901][780]PIE: New page: PIE session: TestMap (1/12/2018 4:05:59 am)
+[2018.11.30-02.05.59:901][780]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.05.59:904][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2018.11.30-02.05.59:905][780]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.05.59:906][780]LogPlayLevel: PIE: World Init took: (0.001234s)
+[2018.11.30-02.05.59:906][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004715s)
+[2018.11.30-02.05.59:945][780]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.05.59:953][780]LogInit: FAudioDevice initialized.
+[2018.11.30-02.05.59:982][780]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.05.59:985][780]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.05.59
+[2018.11.30-02.05.59:985][780]LogWorld: Bringing up level for play took: 0.001506
+[2018.11.30-02.05.59:999][780]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.05.59:999][780]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.05.59:999][780]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.06.00:006][780]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.06.00:006][780]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.606
+[2018.11.30-02.06.19:798][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.06.19:833][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.06.19:864][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.06.19:919][966]LogPlayLevel: Display: Destroying online subsystem :Context_144
+[2018.11.30-02.06.21:201][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.06.38:099][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.06.38:127][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.06.38:127][ 53]PIE: New page: PIE session: TestMap (1/12/2018 4:06:38 am)
+[2018.11.30-02.06.38:127][ 53]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.06.38:130][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003042s)
+[2018.11.30-02.06.38:131][ 53]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.06.38:132][ 53]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2018.11.30-02.06.38:132][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004560s)
+[2018.11.30-02.06.38:170][ 53]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.06.38:178][ 53]LogInit: FAudioDevice initialized.
+[2018.11.30-02.06.38:212][ 53]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.06.38:215][ 53]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.06.38
+[2018.11.30-02.06.38:216][ 53]LogWorld: Bringing up level for play took: 0.001989
+[2018.11.30-02.06.38:229][ 53]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.06.38:229][ 53]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.06.38:229][ 53]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.06.38:233][ 53]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.06.38:233][ 53]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.833
+[2018.11.30-02.06.47:734][621]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.48:285][654]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.48:718][680]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.49:184][708]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.49:618][734]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.50:052][760]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.50:501][787]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.50:984][816]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.06.51:584][852]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.52:085][882]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.52:601][913]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.53:201][949]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.53:734][981]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.54:268][ 13]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.54:751][ 42]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.55:268][ 73]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.55:819][106]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.56:318][136]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.56:785][164]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.57:235][191]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.57:718][220]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.58:219][250]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.58:818][286]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.59:384][318]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.06.59:851][346]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.00:400][379]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.00:917][410]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.01:517][446]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.01:984][474]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.02:501][505]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.02:951][532]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.03:517][566]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.04:084][600]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.04:551][628]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.04:968][653]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.05:468][683]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.05:967][713]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.06:534][747]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.06:968][773]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.07:451][802]LogBlueprintUserMessages: [BTSVisionCheck_C_0] false
+[2018.11.30-02.07.07:968][833]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.08:401][859]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.08:851][886]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.09:434][921]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.09:984][954]LogBlueprintUserMessages: [BTSVisionCheck_C_0] true
+[2018.11.30-02.07.10:357][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.07.10:389][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.07.10:426][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.07.10:466][978]LogPlayLevel: Display: Destroying online subsystem :Context_145
+[2018.11.30-02.07.12:429][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.07.21:952][666]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.21:952][666]LogEditorTransaction: Undo Delete current selection
+[2018.11.30-02.07.22:189][678]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.22:189][678]LogEditorTransaction: Undo Move Node
+[2018.11.30-02.07.22:356][688]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.22:356][688]LogEditorTransaction: Undo Create Pin Link
+[2018.11.30-02.07.22:540][699]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.22:540][699]LogEditorTransaction: Undo Move Nodes
+[2018.11.30-02.07.22:733][710]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.22:733][710]LogEditorTransaction: Undo Create Pin Link
+[2018.11.30-02.07.22:922][720]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.22:922][720]LogEditorTransaction: Undo Move Nodes
+[2018.11.30-02.07.23:137][731]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.23:137][731]LogEditorTransaction: Undo Create Pin Link
+[2018.11.30-02.07.23:334][741]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.23:335][741]LogEditorTransaction: Undo Move Node
+[2018.11.30-02.07.23:514][751]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.23:514][751]LogEditorTransaction: Undo Drag&Drop Node
+[2018.11.30-02.07.24:073][783]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.24:073][783]LogEditorTransaction: Undo Add Node
+[2018.11.30-02.07.24:367][799]Cmd: TRANSACTION UNDO
+[2018.11.30-02.07.24:367][799]LogEditorTransaction: Undo Move Node
+[2018.11.30-02.07.26:958][947]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.07.26:987][947]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.30-02.07.27:021][947]LogPlayLevel: [PlayLevel] Compiling PlayerCharBP before play...
+[2018.11.30-02.07.27:261][947]LogPlayLevel: PlayLevel: Blueprint regeneration took 274 ms (1 blueprints)
+[2018.11.30-02.07.27:261][947]PIE: New page: PIE session: TestMap (1/12/2018 4:07:27 am)
+[2018.11.30-02.07.27:261][947]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.07.27:265][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003354s)
+[2018.11.30-02.07.27:267][947]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.07.27:267][947]LogPlayLevel: PIE: World Init took: (0.001823s)
+[2018.11.30-02.07.27:267][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005483s)
+[2018.11.30-02.07.27:304][947]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.07.27:311][947]LogInit: FAudioDevice initialized.
+[2018.11.30-02.07.27:345][947]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.07.27:347][947]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.07.27
+[2018.11.30-02.07.27:347][947]LogWorld: Bringing up level for play took: 0.001358
+[2018.11.30-02.07.27:360][947]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.07.27:360][947]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.07.27:360][947]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.07.27:364][947]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.07.27:365][947]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.036
+[2018.11.30-02.07.31:486][184]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.32:053][218]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.32:486][244]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.32:920][270]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.33:486][304]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.34:003][335]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.34:603][371]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.35:186][406]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.35:753][440]LogBlueprintUserMessages: [BTSVisionCheck_C_7] true
+[2018.11.30-02.07.36:287][472]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.36:870][507]LogBlueprintUserMessages: [BTSVisionCheck_C_7] false
+[2018.11.30-02.07.40:525][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.07.40:558][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.07.40:595][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.07.40:619][727]LogPlayLevel: Display: Destroying online subsystem :Context_146
+[2018.11.30-02.11.22:792][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.11.31:928][501]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Slealth/Blueprints/EnemyCharBP.EnemyCharBP
+[2018.11.30-02.11.53:322][722]BlueprintLog: New page: Compile EnemyCharBP
+[2018.11.30-02.11.54:603][773]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.11.54:644][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.11.54:644][773]PIE: New page: PIE session: TestMap (1/12/2018 4:11:54 am)
+[2018.11.30-02.11.54:644][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.11.54:648][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003811s)
+[2018.11.30-02.11.54:650][773]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.11.54:650][773]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2018.11.30-02.11.54:650][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005579s)
+[2018.11.30-02.11.54:691][773]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.11.54:699][773]LogInit: FAudioDevice initialized.
+[2018.11.30-02.11.54:712][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.11.54:750][773]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.11.54:752][773]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.11.54
+[2018.11.30-02.11.54:752][773]LogWorld: Bringing up level for play took: 0.002025
+[2018.11.30-02.11.54:765][773]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.11.54:765][773]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.11.54:765][773]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.11.54:767][773]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.11.54:768][773]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.63
+[2018.11.30-02.12.12:096][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.12.12:114][807]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.12.12:159][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.12.12:252][808]LogPlayLevel: Display: Destroying online subsystem :Context_148
+[2018.11.30-02.13.31:702][504]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Slealth/AIComponents/AIState.AIState
+[2018.11.30-02.15.56:170][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BehaviorTree_Enemy" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset" SILENT=true
+[2018.11.30-02.15.56:192][125]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy0E8A5331408607543258008A5D5CE760.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset'
+[2018.11.30-02.15.56:198][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BB_Enemy" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BB_Enemy.uasset" SILENT=true
+[2018.11.30-02.15.56:217][125]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BB_EnemyF406B43144EA4723B2133D8F4AE0E365.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BB_Enemy.uasset'
+[2018.11.30-02.16.36:207][485]BlueprintLog: New page: Compile BTSVisionCheck
+[2018.11.30-02.16.36:795][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BTSVisionCheck" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTSVisionCheck.uasset" SILENT=true
+[2018.11.30-02.16.36:853][501]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheck2C5A81414A12A9A7FB10AFA33498636A.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTSVisionCheck.uasset'
+[2018.11.30-02.17.10:566][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/TestMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.30-02.17.10:610][508]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/TestMap_Auto9F58ED33D46852DBBA401278F39839128.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/TestMap_Auto9.umap'
+[2018.11.30-02.17.10:613][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.082
+[2018.11.30-02.17.10:613][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.082
+[2018.11.30-02.17.10:616][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Slealth/Blueprints/EnemyCharBP] ([1] browsable assets)...
+[2018.11.30-02.17.10:638][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Slealth/Blueprints/EnemyCharBP.EnemyCharBP]
+[2018.11.30-02.17.10:638][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/Blueprints/EnemyCharBP]
+[2018.11.30-02.17.11:003][508]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/EnemyCharBP_Auto9E64EE03A446DE92C8B09D0BA98ED91CC.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/Blueprints/EnemyCharBP_Auto9.uasset'
+[2018.11.30-02.17.11:005][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Slealth/Blueprints/PlayerCharBP] ([1] browsable assets)...
+[2018.11.30-02.17.11:051][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Slealth/Blueprints/PlayerCharBP.PlayerCharBP]
+[2018.11.30-02.17.11:051][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/Blueprints/PlayerCharBP]
+[2018.11.30-02.17.11:186][508]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/PlayerCharBP_Auto954A487A1414EFC82105F8794CAE1A4B0.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/Blueprints/PlayerCharBP_Auto9.uasset'
+[2018.11.30-02.17.11:186][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BehaviorTree_Enemy] ([1] browsable assets)...
+[2018.11.30-02.17.11:187][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BehaviorTree_Enemy]
+[2018.11.30-02.17.11:209][508]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy_Auto9C91304454B17FAE512B203A90383CC6C.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BehaviorTree_Enemy_Auto9.uasset'
+[2018.11.30-02.17.11:210][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/AIState] ([1] browsable assets)...
+[2018.11.30-02.17.11:210][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/AIState]
+[2018.11.30-02.17.11:210][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/AIState" FILE="D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/AIState_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2018.11.30-02.17.11:234][508]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/AIState_Auto9B4D7E9AA421276BEDF2CDC9868C0C427.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/AIState_Auto9.uasset'
+[2018.11.30-02.17.11:235][508]LogFileHelpers: Auto-saving content packages took 0.620
+[2018.11.30-02.17.24:392][294]LogEditorTransaction: Undo Delete current selection
+[2018.11.30-02.18.10:531][ 31]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.30-02.26.59:846][452]BlueprintLog: New page: Compile BTSVisionCheck
+[2018.11.30-02.27.51:173][491]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.065
+[2018.11.30-02.27.51:175][491]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BehaviorTree_Enemy] ([1] browsable assets)...
+[2018.11.30-02.27.51:175][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BehaviorTree_Enemy]
+[2018.11.30-02.27.51:509][491]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy_Auto0599DFD8E49805D3660FE25B543D518C9.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BehaviorTree_Enemy_Auto0.uasset'
+[2018.11.30-02.27.51:511][491]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BTSVisionCheck] ([1] browsable assets)...
+[2018.11.30-02.27.51:511][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BTSVisionCheck]
+[2018.11.30-02.27.51:583][491]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheck_Auto08359909F4DAEE550B7280D8E4DB3625B.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BTSVisionCheck_Auto0.uasset'
+[2018.11.30-02.27.51:584][491]LogFileHelpers: Auto-saving content packages took 0.409
+[2018.11.30-02.28.07:707][450]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.30-02.28.09:905][578]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.30-02.28.09:906][578]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Slealth/AIComponents/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.11.30-02.28.10:233][578]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Slealth/AIComponents/BTTask_BlueprintBase_New.
+[2018.11.30-02.28.29:109][696]LogMetaData: Removing '/Game/Slealth/AIComponents/BTT_DestroyMemory.SKEL_BTT_DestroyMemory_C' ref from Metadata '/Game/Slealth/AIComponents/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.11.30-02.28.29:109][696]LogMetaData: Removing '/Game/Slealth/AIComponents/BTT_DestroyMemory.BTT_DestroyMemory_C' ref from Metadata '/Game/Slealth/AIComponents/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.11.30-02.28.29:140][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BTT_DestroyMemory" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTT_DestroyMemory.uasset" SILENT=true
+[2018.11.30-02.28.29:145][696]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTT_DestroyMemory8EF1AE9743C4E4F8667B98B6E44607EE.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTT_DestroyMemory.uasset'
+[2018.11.30-02.28.29:447][698]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Slealth/AIComponents/BTT_DestroyMemory.
+[2018.11.30-02.31.49:783][546]BlueprintLog: New page: Compile BTT_DestroyMemory
+[2018.11.30-02.37.31:555][750]LogSlate: Window 'Color Picker' being destroyed
+[2018.11.30-02.38.31:444][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.063
+[2018.11.30-02.38.31:446][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Slealth/Blueprints/EnemyCharBP] ([1] browsable assets)...
+[2018.11.30-02.38.31:487][277]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Slealth/Blueprints/EnemyCharBP.EnemyCharBP]
+[2018.11.30-02.38.31:487][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/Blueprints/EnemyCharBP]
+[2018.11.30-02.38.31:553][277]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/EnemyCharBP_Auto1F01E4E1B469FCA529FCF1C8CFF2F9838.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/Blueprints/EnemyCharBP_Auto1.uasset'
+[2018.11.30-02.38.31:554][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Slealth/Blueprints/PlayerCharBP] ([1] browsable assets)...
+[2018.11.30-02.38.31:594][277]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Slealth/Blueprints/PlayerCharBP.PlayerCharBP]
+[2018.11.30-02.38.31:594][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/Blueprints/PlayerCharBP]
+[2018.11.30-02.38.31:722][277]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/PlayerCharBP_Auto18340C03F492059A92DF07D86CC86E5D5.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/Blueprints/PlayerCharBP_Auto1.uasset'
+[2018.11.30-02.38.31:723][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BehaviorTree_Enemy] ([1] browsable assets)...
+[2018.11.30-02.38.31:723][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BehaviorTree_Enemy]
+[2018.11.30-02.38.31:834][277]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy_Auto16433EE7C4066040FA883BF9A64DCEFDC.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BehaviorTree_Enemy_Auto1.uasset'
+[2018.11.30-02.38.31:839][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BTSVisionCheck] ([1] browsable assets)...
+[2018.11.30-02.38.31:839][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BTSVisionCheck]
+[2018.11.30-02.38.31:925][277]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheck_Auto139606AD44CC35D02F324F59D9A970071.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BTSVisionCheck_Auto1.uasset'
+[2018.11.30-02.38.31:925][277]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BTT_DestroyMemory] ([1] browsable assets)...
+[2018.11.30-02.38.31:926][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BTT_DestroyMemory]
+[2018.11.30-02.38.31:959][277]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTT_DestroyMemory_Auto13C2235D34FF597434C2B09B926A16637.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BTT_DestroyMemory_Auto1.uasset'
+[2018.11.30-02.38.31:960][277]LogFileHelpers: Auto-saving content packages took 0.515
+[2018.11.30-02.39.12:407][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.30-02.39.12:782][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/TestMapEE1667B240549B21AE63ECA530C755E3.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/TestMap.umap'
+[2018.11.30-02.39.12:814][683]LogFileHelpers: Saving map 'TestMap' took 0.564
+[2018.11.30-02.39.12:822][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/Blueprints/EnemyCharBP" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/Blueprints/EnemyCharBP.uasset" SILENT=true
+[2018.11.30-02.39.12:869][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/EnemyCharBPA96C4F9C412C1664438C99B077FD0FAB.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/Blueprints/EnemyCharBP.uasset'
+[2018.11.30-02.39.12:875][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/Blueprints/PlayerCharBP" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/Blueprints/PlayerCharBP.uasset" SILENT=true
+[2018.11.30-02.39.12:971][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/PlayerCharBP0C06CCEA47C426AAF2813293B17214E6.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/Blueprints/PlayerCharBP.uasset'
+[2018.11.30-02.39.12:977][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BehaviorTree_Enemy" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset" SILENT=true
+[2018.11.30-02.39.12:996][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BehaviorTree_Enemy894F963F42D8FD29BB99448729D70A66.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BehaviorTree_Enemy.uasset'
+[2018.11.30-02.39.13:001][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/AIState" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/AIState.uasset" SILENT=true
+[2018.11.30-02.39.13:014][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/AIStateF502744A40E4AB47EF2A3C88BA56ABF7.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/AIState.uasset'
+[2018.11.30-02.39.13:020][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BTSVisionCheck" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTSVisionCheck.uasset" SILENT=true
+[2018.11.30-02.39.13:084][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheck51F9578B4FB24A87294C1F9F85FE5A81.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTSVisionCheck.uasset'
+[2018.11.30-02.39.13:090][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BTT_DestroyMemory" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTT_DestroyMemory.uasset" SILENT=true
+[2018.11.30-02.39.13:110][683]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTT_DestroyMemory23A6771F4B489EB2A88CB5A75F63C2C4.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTT_DestroyMemory.uasset'
+[2018.11.30-02.39.13:498][700]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.39.13:530][700]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.30-02.39.13:546][700]LogPlayLevel: [PlayLevel] Compiling EnemyCharBP before play...
+[2018.11.30-02.39.13:781][700]LogPlayLevel: [PlayLevel] Compiling PlayerCharBP before play...
+[2018.11.30-02.39.14:030][700]LogPlayLevel: [PlayLevel] Compiling BTSVisionCheck before play...
+[2018.11.30-02.39.14:242][700]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2018.11.30-02.39.14:317][700]LogPlayLevel: PlayLevel: Blueprint regeneration took 787 ms (4 blueprints)
+[2018.11.30-02.39.14:318][700]PIE: New page: PIE session: TestMap (1/12/2018 4:39:14 am)
+[2018.11.30-02.39.14:318][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.39.14:321][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003375s)
+[2018.11.30-02.39.14:322][700]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.39.14:322][700]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2018.11.30-02.39.14:322][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004533s)
+[2018.11.30-02.39.14:370][700]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.39.14:377][700]LogInit: FAudioDevice initialized.
+[2018.11.30-02.39.14:410][700]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.39.14:412][700]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.39.14
+[2018.11.30-02.39.14:413][700]LogWorld: Bringing up level for play took: 0.001538
+[2018.11.30-02.39.14:425][700]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.39.14:425][700]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.39.14:425][700]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.39.14:427][700]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.39.14:427][700]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 1.041
+[2018.11.30-02.39.27:955][510]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=-14.71 Y=-30.80 Z=0.00 Location: X=80.37 Y=254.08 Z=110.15 Normal: X=-0.95 Y=-0.30 Z=-0.00 PenetrationDepth:5.386 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (0 other events since notify)
+[2018.11.30-02.39.32:628][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.39.32:667][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.39.32:731][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.39.32:756][789]LogPlayLevel: Display: Destroying online subsystem :Context_150
+[2018.11.30-02.39.33:499][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.39.33:582][837]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.39.33:618][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.39.33:618][837]PIE: New page: PIE session: TestMap (1/12/2018 4:39:33 am)
+[2018.11.30-02.39.33:618][837]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.39.33:622][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003703s)
+[2018.11.30-02.39.33:623][837]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.39.33:624][837]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2018.11.30-02.39.33:624][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005303s)
+[2018.11.30-02.39.33:662][837]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.39.33:670][837]LogInit: FAudioDevice initialized.
+[2018.11.30-02.39.33:708][837]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.39.33:714][837]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.39.33
+[2018.11.30-02.39.33:715][837]LogWorld: Bringing up level for play took: 0.004632
+[2018.11.30-02.39.33:731][837]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.39.33:731][837]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.39.33:731][837]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.39.33:739][837]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.39.33:740][837]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.354
+[2018.11.30-02.40.09:840][  0]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=183.79 Y=-78.87 Z=0.00 Location: X=56.71 Y=411.55 Z=110.15 Normal: X=-0.34 Y=-0.94 Z=-0.00 PenetrationDepth:17.435 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (0 other events since notify)
+[2018.11.30-02.40.10:997][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.40.11:037][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.40.11:083][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.40.11:109][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_151
+[2018.11.30-02.40.13:287][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.41.08:022][453]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.41.08:054][453]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.30-02.41.08:074][453]LogPlayLevel: [PlayLevel] Compiling BTSVisionCheck before play...
+[2018.11.30-02.41.08:318][453]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (1 blueprints)
+[2018.11.30-02.41.08:318][453]PIE: New page: PIE session: TestMap (1/12/2018 4:41:08 am)
+[2018.11.30-02.41.08:318][453]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.41.08:322][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003438s)
+[2018.11.30-02.41.08:322][453]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.41.08:323][453]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2018.11.30-02.41.08:323][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004578s)
+[2018.11.30-02.41.08:363][453]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.41.08:370][453]LogInit: FAudioDevice initialized.
+[2018.11.30-02.41.08:383][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.41.08:421][453]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.41.08:424][453]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.41.08
+[2018.11.30-02.41.08:425][453]LogWorld: Bringing up level for play took: 0.001707
+[2018.11.30-02.41.08:437][453]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.41.08:437][453]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.41.08:437][453]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.41.08:440][453]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.41.08:442][453]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 1.057
+[2018.11.30-02.41.14:010][780]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.14:426][805]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.14:843][830]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.15:426][865]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.15:927][895]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.16:395][923]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.16:995][959]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.17:512][990]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.18:095][ 25]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.18:529][ 51]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.18:995][ 79]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.19:512][110]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.20:063][143]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.20:662][179]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.21:245][214]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.21:712][242]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.22:295][277]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.22:762][305]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.23:263][335]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.23:712][362]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.24:312][398]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.24:879][432]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.24:978][438]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=32.50 Y=-10.43 Z=0.00 Location: X=-36.43 Y=302.87 Z=110.15 Normal: X=0.57 Y=-0.82 Z=-0.00 PenetrationDepth:6.228 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (0 other events since notify)
+[2018.11.30-02.41.25:312][458]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.25:729][483]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.26:329][519]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.26:912][554]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.27:445][586]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.27:996][619]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.28:596][655]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.29:045][682]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.29:579][714]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.29:996][739]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.30:529][771]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.30:979][798]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.31:440][824]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.31:856][849]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.32:089][863]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=-12.40 Y=31.80 Z=0.00 Location: X=80.35 Y=-304.31 Z=110.15 Normal: X=-0.98 Y=0.20 Z=0.00 PenetrationDepth:31.482 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (8 other events since notify)
+[2018.11.30-02.41.32:407][882]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.32:940][914]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.33:090][923]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=-1.19 Y=200.00 Z=0.00 Location: X=80.35 Y=-304.31 Z=110.15 Normal: X=-0.98 Y=0.22 Z=0.00 PenetrationDepth:31.632 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (56 other events since notify)
+[2018.11.30-02.41.33:425][943]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.33:859][969]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.34:091][983]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=88.44 Y=179.38 Z=0.00 Location: X=80.35 Y=-304.31 Z=110.15 Normal: X=-0.97 Y=0.25 Z=0.00 PenetrationDepth:27.355 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (59 other events since notify)
+[2018.11.30-02.41.34:342][998]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.34:842][ 28]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.35:091][ 43]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=59.47 Y=190.95 Z=0.00 Location: X=80.35 Y=-304.31 Z=110.15 Normal: X=-0.98 Y=0.19 Z=0.00 PenetrationDepth:31.590 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (59 other events since notify)
+[2018.11.30-02.41.35:292][ 55]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.35:825][ 87]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.36:108][104]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=18.90 Y=-28.42 Z=0.00 Location: X=80.35 Y=-304.31 Z=110.15 Normal: X=-0.98 Y=0.21 Z=0.00 PenetrationDepth:32.706 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (50 other events since notify)
+[2018.11.30-02.41.36:242][112]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.36:663][137]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.37:095][163]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.37:112][164]LogCharacterMovement: PlayerCharBP_C_0 is stuck and failed to move! Velocity: X=96.32 Y=175.28 Z=0.00 Location: X=80.35 Y=-304.31 Z=110.15 Normal: X=-0.98 Y=0.21 Z=0.00 PenetrationDepth:31.381 Actor:EnemyCharBP_3 Component:Rifle BoneName:None (57 other events since notify)
+[2018.11.30-02.41.37:645][196]LogBlueprintUserMessages: [BTSVisionCheck_C_7] X=-548.289 Y=-3.812 Z=110.150
+[2018.11.30-02.41.37:733][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.41.37:753][201]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.41.37:799][201]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.41.37:891][202]LogPlayLevel: Display: Destroying online subsystem :Context_152
+[2018.11.30-02.41.39:364][289]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.41.39:398][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.41.39:398][289]PIE: New page: PIE session: TestMap (1/12/2018 4:41:39 am)
+[2018.11.30-02.41.39:398][289]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.41.39:402][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003300s)
+[2018.11.30-02.41.39:403][289]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.41.39:403][289]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2018.11.30-02.41.39:403][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004750s)
+[2018.11.30-02.41.39:437][289]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.41.39:445][289]LogInit: FAudioDevice initialized.
+[2018.11.30-02.41.39:457][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.41.39:518][289]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.41.39:522][289]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.41.39
+[2018.11.30-02.41.39:523][289]LogWorld: Bringing up level for play took: 0.003683
+[2018.11.30-02.41.39:536][289]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.41.39:536][289]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.41.39:536][289]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.41.39:541][289]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.41.39:549][289]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.164
+[2018.11.30-02.41.41:158][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.41.41:176][381]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.41.41:213][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.41.41:275][382]LogPlayLevel: Display: Destroying online subsystem :Context_153
+[2018.11.30-02.41.48:444][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.11.30-02.41.56:677][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.11.30-02.41.57:610][344]Cmd: DELETE
+[2018.11.30-02.41.57:610][344]Cmd: ACTOR DELETE
+[2018.11.30-02.41.57:616][344]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.30-02.41.57:665][344]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2018.11.30-02.41.58:703][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.41.58:786][411]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.41.58:818][411]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.30-02.41.58:836][411]LogPlayLevel: [PlayLevel] Compiling BTSVisionCheck before play...
+[2018.11.30-02.41.59:058][411]LogPlayLevel: PlayLevel: Blueprint regeneration took 240 ms (1 blueprints)
+[2018.11.30-02.41.59:058][411]PIE: New page: PIE session: TestMap (1/12/2018 4:41:59 am)
+[2018.11.30-02.41.59:058][411]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.41.59:062][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003342s)
+[2018.11.30-02.41.59:063][411]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.41.59:063][411]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2018.11.30-02.41.59:063][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004775s)
+[2018.11.30-02.41.59:105][411]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.41.59:112][411]LogInit: FAudioDevice initialized.
+[2018.11.30-02.41.59:147][411]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.41.59:152][411]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.41.59
+[2018.11.30-02.41.59:153][411]LogWorld: Bringing up level for play took: 0.003866
+[2018.11.30-02.41.59:167][411]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.41.59:167][411]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.41.59:167][411]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.41.59:175][411]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.41.59:175][411]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.209
+[2018.11.30-02.42.18:455][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.42.18:492][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.42.18:532][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.42.18:556][559]LogPlayLevel: Display: Destroying online subsystem :Context_154
+[2018.11.30-02.42.22:511][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.30-02.42.32:387][364]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.42.32:420][364]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.30-02.42.32:439][364]LogPlayLevel: [PlayLevel] Compiling BTSVisionCheck before play...
+[2018.11.30-02.42.32:665][364]LogPlayLevel: PlayLevel: Blueprint regeneration took 244 ms (1 blueprints)
+[2018.11.30-02.42.32:665][364]PIE: New page: PIE session: TestMap (1/12/2018 4:42:32 am)
+[2018.11.30-02.42.32:665][364]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.42.32:668][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003260s)
+[2018.11.30-02.42.32:669][364]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.42.32:670][364]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2018.11.30-02.42.32:670][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004806s)
+[2018.11.30-02.42.32:710][364]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.42.32:717][364]LogInit: FAudioDevice initialized.
+[2018.11.30-02.42.32:729][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.42.32:774][364]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.42.32:778][364]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.42.32
+[2018.11.30-02.42.32:779][364]LogWorld: Bringing up level for play took: 0.003301
+[2018.11.30-02.42.32:792][364]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.42.32:793][364]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.42.32:793][364]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.42.32:798][364]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.42.32:799][364]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.584
+[2018.11.30-02.43.00:750][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.43.00:768][ 32]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.43.00:819][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.43.00:915][ 33]LogPlayLevel: Display: Destroying online subsystem :Context_155
+[2018.11.30-02.48.04:341][178]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.48.04:375][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.48.04:375][178]PIE: New page: PIE session: TestMap (1/12/2018 4:48:04 am)
+[2018.11.30-02.48.04:375][178]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.48.04:378][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003217s)
+[2018.11.30-02.48.04:380][178]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.48.04:381][178]LogPlayLevel: PIE: World Init took: (0.002093s)
+[2018.11.30-02.48.04:381][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005583s)
+[2018.11.30-02.48.04:420][178]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.48.04:429][178]LogInit: FAudioDevice initialized.
+[2018.11.30-02.48.04:443][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.48.04:489][178]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.48.04:492][178]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.48.04
+[2018.11.30-02.48.04:492][178]LogWorld: Bringing up level for play took: 0.001808
+[2018.11.30-02.48.04:504][178]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.48.04:505][178]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.48.04:505][178]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.48.04:507][178]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.48.04:511][178]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 1.132
+[2018.11.30-02.48.40:921][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.48.40:940][357]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.48.40:982][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.48.41:055][358]LogPlayLevel: Display: Destroying online subsystem :Context_157
+[2018.11.30-02.48.42:821][464]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.48.42:855][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.48.42:855][464]PIE: New page: PIE session: TestMap (1/12/2018 4:48:42 am)
+[2018.11.30-02.48.42:855][464]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.48.42:859][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003144s)
+[2018.11.30-02.48.42:860][464]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.48.42:860][464]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2018.11.30-02.48.42:860][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004582s)
+[2018.11.30-02.48.42:900][464]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.48.42:907][464]LogInit: FAudioDevice initialized.
+[2018.11.30-02.48.42:920][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.48.42:966][464]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.48.42:968][464]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.48.42
+[2018.11.30-02.48.42:969][464]LogWorld: Bringing up level for play took: 0.001553
+[2018.11.30-02.48.42:981][464]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.48.42:982][464]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.48.42:982][464]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.48.42:984][464]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.48.42:988][464]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.391
+[2018.11.30-02.48.58:889][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.48.58:908][414]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.48.58:949][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.48.59:024][415]LogPlayLevel: Display: Destroying online subsystem :Context_158
+[2018.11.30-02.49.00:225][487]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.49.00:259][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.49.00:259][487]PIE: New page: PIE session: TestMap (1/12/2018 4:49:00 am)
+[2018.11.30-02.49.00:259][487]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.49.00:262][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003286s)
+[2018.11.30-02.49.00:263][487]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.49.00:264][487]LogPlayLevel: PIE: World Init took: (0.001458s)
+[2018.11.30-02.49.00:264][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004999s)
+[2018.11.30-02.49.00:304][487]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.49.00:311][487]LogInit: FAudioDevice initialized.
+[2018.11.30-02.49.00:321][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.49.00:369][487]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.49.00:373][487]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.49.00
+[2018.11.30-02.49.00:374][487]LogWorld: Bringing up level for play took: 0.003125
+[2018.11.30-02.49.00:388][487]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.49.00:388][487]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.49.00:388][487]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.49.00:393][487]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.49.00:401][487]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 1.022
+[2018.11.30-02.49.22:090][781]LogCharacterMovement: EnemyCharBP_3 is stuck and failed to move! Velocity: X=33.51 Y=6.50 Z=0.00 Location: X=-14.07 Y=482.90 Z=108.04 Normal: X=-0.78 Y=0.18 Z=-0.60 PenetrationDepth:9.002 Actor:PlayerCharBP_C_0 Component:AssaultRifle BoneName:None (0 other events since notify)
+[2018.11.30-02.49.23:562][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.49.23:579][869]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.49.23:618][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.49.23:689][870]LogPlayLevel: Display: Destroying online subsystem :Context_159
+[2018.11.30-02.51.21:546][869]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Slealth/Blueprints/HealthInterface.
+[2018.11.30-02.51.29:414][313]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Slealth/Blueprints/HealthInterface.HealthInterface
+[2018.11.30-02.52.44:443][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/TestMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.30-02.52.44:492][790]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/TestMap_Auto2293D221C4F250777F41987BA7E35B19F.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/TestMap_Auto2.umap'
+[2018.11.30-02.52.44:495][790]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.100
+[2018.11.30-02.52.44:495][790]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2018.11.30-02.52.44:498][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BTSVisionCheck] ([1] browsable assets)...
+[2018.11.30-02.52.44:498][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BTSVisionCheck]
+[2018.11.30-02.52.44:871][790]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheck_Auto28C88AB1042C247A648F8C981CDD0DCAA.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BTSVisionCheck_Auto2.uasset'
+[2018.11.30-02.52.44:872][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/Blueprints/HealthInterface] ([1] browsable assets)...
+[2018.11.30-02.52.44:872][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/Blueprints/HealthInterface]
+[2018.11.30-02.52.44:876][790]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/HealthInterface_Auto2DD1E11694A1AD641AA4C59928ADE97C9.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/Blueprints/HealthInterface_Auto2.uasset'
+[2018.11.30-02.52.44:877][790]LogFileHelpers: Auto-saving content packages took 0.380
+[2018.11.30-02.54.19:388][446]BlueprintLog: New page: Compile BTSVisionCheck
+[2018.11.30-02.54.28:175][946]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.54.28:213][946]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.30-02.54.28:232][946]LogPlayLevel: [PlayLevel] Compiling BTSVisionCheck before play...
+[2018.11.30-02.54.28:398][946]LogPlayLevel: [PlayLevel] Compiling HealthInterface before play...
+[2018.11.30-02.54.28:444][946]LogPlayLevel: PlayLevel: Blueprint regeneration took 230 ms (2 blueprints)
+[2018.11.30-02.54.28:444][946]PIE: New page: PIE session: TestMap (1/12/2018 4:54:28 am)
+[2018.11.30-02.54.28:444][946]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.54.28:447][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003241s)
+[2018.11.30-02.54.28:449][946]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.54.28:449][946]LogPlayLevel: PIE: World Init took: (0.001801s)
+[2018.11.30-02.54.28:449][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005303s)
+[2018.11.30-02.54.28:488][946]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.54.28:496][946]LogInit: FAudioDevice initialized.
+[2018.11.30-02.54.28:510][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.54.28:548][946]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.54.28:551][946]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.54.28
+[2018.11.30-02.54.28:552][946]LogWorld: Bringing up level for play took: 0.002270
+[2018.11.30-02.54.28:564][946]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.54.28:564][946]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.54.28:564][946]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.54.28:566][946]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.54.28:568][946]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 1.191
+[2018.11.30-02.54.42:724][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.54.42:743][785]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.54.42:780][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.54.42:855][786]LogPlayLevel: Display: Destroying online subsystem :Context_161
+[2018.11.30-02.54.43:786][842]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.30-02.54.43:822][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.30-02.54.43:822][842]PIE: New page: PIE session: TestMap (1/12/2018 4:54:43 am)
+[2018.11.30-02.54.43:822][842]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.11.30-02.54.43:825][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003086s)
+[2018.11.30-02.54.43:827][842]LogAIModule: Creating AISystem for world TestMap
+[2018.11.30-02.54.43:827][842]LogPlayLevel: PIE: World Init took: (0.001695s)
+[2018.11.30-02.54.43:827][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.005076s)
+[2018.11.30-02.54.43:868][842]LogInit: XAudio2 using 'Speakers (Jabra EVOLVE 30 II)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.30-02.54.43:876][842]LogInit: FAudioDevice initialized.
+[2018.11.30-02.54.43:889][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.54.43:939][842]LogLoad: Game class is 'ShooterGM_C'
+[2018.11.30-02.54.43:941][842]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2018.11.30-15.54.43
+[2018.11.30-02.54.43:941][842]LogWorld: Bringing up level for play took: 0.001670
+[2018.11.30-02.54.43:954][842]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.54.43:954][842]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.30-02.54.43:954][842]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.54.43:959][842]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.30-02.54.43:968][842]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.591
+[2018.11.30-02.54.59:211][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.30-02.54.59:229][752]LogSlate: Window 'UnrealStealth Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.30-02.54.59:265][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.30-02.54.59:319][753]LogPlayLevel: Display: Destroying online subsystem :Context_162
+[2018.11.30-03.03.15:150][381]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.069
+[2018.11.30-03.03.15:152][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/AIComponents/BTSVisionCheck] ([1] browsable assets)...
+[2018.11.30-03.03.15:152][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/AIComponents/BTSVisionCheck]
+[2018.11.30-03.03.15:552][381]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheck_Auto3D59BDAFF4A5C9BF5E1C345BDE6E22BF0.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/AIComponents/BTSVisionCheck_Auto3.uasset'
+[2018.11.30-03.03.15:555][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Slealth/Blueprints/HealthInterface] ([1] browsable assets)...
+[2018.11.30-03.03.15:555][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Slealth/Blueprints/HealthInterface]
+[2018.11.30-03.03.15:562][381]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/HealthInterface_Auto39BB5D6A84769678B35D2A1916F368EE0.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Saved/Autosaves/Game/Slealth/Blueprints/HealthInterface_Auto3.uasset'
+[2018.11.30-03.03.15:564][381]LogFileHelpers: Auto-saving content packages took 0.412
+[2018.11.30-03.05.47:614][386]LogSlate: Window 'Save Content' being destroyed
+[2018.11.30-03.05.47:640][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/AIComponents/BTSVisionCheck" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTSVisionCheck.uasset" SILENT=true
+[2018.11.30-03.05.47:712][386]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/BTSVisionCheckAC9DF68C42E92D66524959BFC949F63B.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/AIComponents/BTSVisionCheck.uasset'
+[2018.11.30-03.05.47:718][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Slealth/Blueprints/HealthInterface" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/Blueprints/HealthInterface.uasset" SILENT=true
+[2018.11.30-03.05.47:723][386]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/HealthInterfaceC24660A34F29FCCA426FF1B259663888.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/Slealth/Blueprints/HealthInterface.uasset'
+[2018.11.30-03.05.47:893][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="D:/Unreal/OperationSTP/UnrealStealth/Content/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.30-03.05.47:971][386]LogSavePackage: Moving 'D:/Unreal/OperationSTP/UnrealStealth/Saved/TestMapD7C508934EEA4E301E723C82E5E41FB9.tmp' to 'D:/Unreal/OperationSTP/UnrealStealth/Content/TestMap.umap'
+[2018.11.30-03.05.48:002][386]LogFileHelpers: Saving map 'TestMap' took 0.274
+[2018.11.30-03.05.48:328][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.30-03.05.48:408][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.30-03.05.48:527][386]LogSlate: Window 'UnrealStealth - Unreal Editor' being destroyed
+[2018.11.30-03.05.48:786][387]Cmd: QUIT_EDITOR
+[2018.11.30-03.05.49:731][387]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.30-03.05.49:765][387]LogExit: Preparing to exit.
+[2018.11.30-03.05.50:285][387]LogExit: Editor shut down
+[2018.11.30-03.05.50:285][387]LogExit: Transaction tracking system shut down
+[2018.11.30-03.05.50:916][387]LogExit: Object subsystem successfully closed.
+[2018.11.30-03.05.50:946][387]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.30-03.05.50:957][387]LogD3D11RHI: Shutdown
+[2018.11.30-03.05.50:957][387]LogD3D11RHI: CleanupD3DDevice
+[2018.11.30-03.05.50:966][387]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.30-03.05.51:102][387]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (618)
+[2018.11.30-03.05.51:103][387]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2018.11.30-03.05.51:103][387]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2018.11.30-03.05.51:103][387]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2018.11.30-03.05.51:103][387]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.11.30-03.05.51:103][387]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.11.30-03.05.51:103][387]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.11.30-03.05.51:104][387]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.11.30-03.05.51:104][387]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.11.30-03.05.51:104][387]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.11.30-03.05.51:104][387]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.11.30-03.05.51:105][387]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.11.30-03.05.51:106][387]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.11.30-03.05.51:107][387]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.11.30-03.05.51:107][387]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.11.30-03.05.51:107][387]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.11.30-03.05.51:107][387]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.11.30-03.05.51:107][387]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.11.30-03.05.51:108][387]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.11.30-03.05.51:108][387]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.11.30-03.05.51:108][387]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.11.30-03.05.51:108][387]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.11.30-03.05.52:318][387]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.11.30-03.05.52:318][387]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.11.30-03.05.52:318][387]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.11.30-03.05.52:318][387]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.11.30-03.05.52:319][387]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.11.30-03.05.52:320][387]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.11.30-03.05.52:320][387]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.11.30-03.05.52:320][387]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.11.30-03.05.52:320][387]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.11.30-03.05.52:320][387]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.11.30-03.05.52:320][387]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.11.30-03.05.52:321][387]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.11.30-03.05.52:321][387]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.11.30-03.05.52:321][387]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.11.30-03.05.52:321][387]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.11.30-03.05.52:375][387]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.11.30-03.05.52:375][387]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.11.30-03.05.52:375][387]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.11.30-03.05.52:375][387]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.11.30-03.05.52:375][387]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.11.30-03.05.52:375][387]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.11.30-03.05.52:376][387]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.11.30-03.05.52:376][387]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.11.30-03.05.52:376][387]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.11.30-03.05.52:376][387]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.11.30-03.05.52:395][387]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.11.30-03.05.52:396][387]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.11.30-03.05.52:400][387]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.11.30-03.05.52:400][387]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.30-03.05.52:400][387]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.30-03.05.52:400][387]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.30-03.05.52:400][387]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.30-03.05.52:400][387]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.30-03.05.52:401][387]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.30-03.05.52:402][387]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.30-03.05.52:402][387]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.30-03.05.52:402][387]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.11.30-03.05.52:402][387]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.11.30-03.05.52:531][387]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.11.30-03.05.52:531][387]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.11.30-03.05.52:531][387]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.11.30-03.05.52:531][387]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.11.30-03.05.52:532][387]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.11.30-03.05.52:544][387]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.11.30-03.05.52:545][387]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.11.30-03.05.52:546][387]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.11.30-03.05.52:546][387]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.11.30-03.05.52:546][387]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.11.30-03.05.52:546][387]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.11.30-03.05.52:546][387]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.11.30-03.05.52:547][387]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.11.30-03.05.52:548][387]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.30-03.05.52:549][387]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.30-03.05.52:550][387]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.30-03.05.52:550][387]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.30-03.05.52:650][387]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.30-03.05.52:751][387]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.30-03.05.52:751][387]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.30-03.05.52:751][387]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.30-03.05.52:751][387]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.30-03.05.52:751][387]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.30-03.05.52:751][387]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.30-03.05.52:752][387]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.30-03.05.52:754][387]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.30-03.05.52:755][387]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.30-03.05.52:755][387]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.30-03.05.52:755][387]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.30-03.05.52:757][387]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.30-03.05.52:761][387]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.30-03.05.52:761][387]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.30-03.05.52:761][387]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.30-03.05.52:761][387]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.30-03.05.52:761][387]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.30-03.05.52:761][387]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.30-03.05.52:766][387]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.30-03.05.52:773][387]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.30-03.05.52:773][387]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.30-03.05.52:773][387]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.30-03.05.52:774][387]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.30-03.05.52:775][387]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.30-03.05.52:775][387]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.30-03.05.52:775][387]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.30-03.05.52:775][387]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.30-03.05.52:775][387]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.30-03.05.52:782][387]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.30-03.05.52:783][387]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.30-03.05.52:783][387]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.30-03.05.52:783][387]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.30-03.05.52:783][387]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.30-03.05.52:783][387]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.30-03.05.52:853][387]LogDerivedDataCache: Shutdown
+[2018.11.30-03.05.52:853][387]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.30-03.05.52:853][387]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.30-03.05.52:853][387]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.30-03.05.52:854][387]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.30-03.05.52:855][387]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.30-03.05.52:860][387]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.30-03.05.52:860][387]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.30-03.05.52:864][387]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.30-03.05.52:864][387]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.30-03.05.52:895][387]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.30-03.05.52:896][387]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.30-03.05.52:896][387]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.30-03.05.52:896][387]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.30-03.05.52:896][387]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.30-03.05.52:896][387]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.30-03.05.52:897][387]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.30-03.05.52:897][387]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.30-03.05.52:912][387]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.30-03.05.52:912][387]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.11.30-03.05.52:912][387]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B65D93819-4DA5-F35F-1289-5490959CADB6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=982d83224dea9eda8e9739a8090c26ed%7C08792cf5e0cd451eb35aca10518a0cb2%7C1d36900e-61a0-4595-abb7-b51c197616b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.30-03.05.52:912][387]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B65D93819-4DA5-F35F-1289-5490959CADB6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=982d83224dea9eda8e9739a8090c26ed%7C08792cf5e0cd451eb35aca10518a0cb2%7C1d36900e-61a0-4595-abb7-b51c197616b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.30-03.05.52:928][387]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.30-03.05.52:932][387]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.30-03.05.52:933][387]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.30-03.05.52:933][387]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.30-03.05.52:933][387]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.30-03.05.52:933][387]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.30-03.05.52:934][387]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.30-03.05.52:934][387]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.30-03.05.52:934][387]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.30-03.05.52:934][387]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.30-03.05.52:934][387]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.30-03.05.52:938][387]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.30-03.05.52:958][387]LogExit: Exiting.
+[2018.11.30-03.05.52:966][387]Log file closed, 11/30/18 16:05:52

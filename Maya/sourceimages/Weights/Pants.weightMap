@@ -1,0 +1,12 @@
+// Exported skin weight map file
+// 
+Pants	pelvis	Pants_pelvis.iff
+Pants	spine_01	Pants_spine_01.iff
+Pants	thigh_l	Pants_thigh_l.iff
+Pants	calf_l	Pants_calf_l.iff
+Pants	foot_l	Pants_foot_l.iff
+Pants	thigh_twist_01_l	Pants_thigh_twist_01_l.iff
+Pants	thigh_r	Pants_thigh_r.iff
+Pants	calf_r	Pants_calf_r.iff
+Pants	foot_r	Pants_foot_r.iff
+Pants	thigh_twist_01_r	Pants_thigh_twist_01_r.iff

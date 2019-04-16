@@ -79,3 +79,10 @@ UnrealStealth 4.21/Plugins/*/Intermediate/*
 UnrealStealth 4.21/DerivedDataCache/*
 
 # End of https://www.gitignore.io/api/unrealengine
+UnrealStealth 4.21/Intermediate/CachedAssetRegistry.bin
+UnrealStealth 4.21/Saved/AutoScreenshot.png
+UnrealStealth 4.21/Saved/Logs/UnrealStealth.log
+UnrealStealth 4.21/Intermediate/CachedAssetRegistry.bin
+UnrealStealth 4.21/Saved/AutoScreenshot.png
+UnrealStealth 4.21/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+UnrealStealth 4.21/Saved/Logs/UnrealStealth.log
